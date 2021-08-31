@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignitems</title>
+    <style>
+        .container{
+            background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            align-items: stretch;
+
+
+
+        }
+        .item{
+            /* height: 200px; */
+            width: 200px;
+            background-color: dodgerblue;
+            margin: 10px;
+
+        }
+        .item-content{
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <p>align items works in y-axis(cross axis) i.e top and bottom</p>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item item-content"></div>
+        <div class="item"></div>
+
+
+    </div>
+</body>
+</html>

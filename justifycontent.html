@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify content</title>
+    <style>
+        .container{
+            background-color: palegreen;
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            justify-content: space-around;
+
+        }
+        .content{
+            height: 200px;
+            width: 250px;
+            background-color: olivedrab;
+            /* margin: 10px; */
+
+        }
+    </style>
+</head>
+<body>
+   <p>justify content always work in x-axis(main) or horizontal axis i.e between left and right</p> 
+   <div class="container">
+       <div class="content"></div>
+       <div class="content"></div>
+       <div class="content"></div>
+   </div>
+</body>
+</html>

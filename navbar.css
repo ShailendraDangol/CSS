@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: dodgerblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2{
+    color: white;
+    padding-left: 30px;
+}
+.nav-content ul{
+    display: flex;
+    list-style-type:none;
+}
+ul li a{
+    color: ghostwhite;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px;
+    display: inline-block;
+}
+.search-form form input{
+    border: none;
+    padding: 10px;
+}
+input[type="submit"]{
+    background-color: green;
+    font-size: 15px;
+    color: honeydew;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color:orangered
+    
+}
+ul li a:hover{
+    background-color: orangered;
+}
+
